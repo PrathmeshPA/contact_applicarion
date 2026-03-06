@@ -334,7 +334,7 @@ The phone dialer will open automatically.
 
 # ScreenSho
 
-<img width="1344" height="2992" alt="Screenshot_20260305_171405" src="https://github.com/user-attachments/assets/9aaa25dd-7f42-46fb-ad4e-cb1cf987ee19" />
+<img width="250" height="250" alt="Screenshot_20260305_171405" src="https://github.com/user-attachments/assets/9aaa25dd-7f42-46fb-ad4e-cb1cf987ee19" />
 tes
 
 
