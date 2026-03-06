@@ -7,7 +7,6 @@ import '../models/contect_model.dart';
 import 'edit_contact.dart';
 
 class ContactDetailScreen extends StatelessWidget {
-
   Contact contact;
 
   ContactDetailScreen(this.contact, {super.key});
@@ -65,8 +64,6 @@ class ContactDetailScreen extends StatelessWidget {
           ),
 
           const SizedBox(height: 15),
-
-          /// Name
           Text(
             updatedContact.name,
             style: const TextStyle(
@@ -76,8 +73,6 @@ class ContactDetailScreen extends StatelessWidget {
           ),
 
           const SizedBox(height: 25),
-
-          /// Action Buttons
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
@@ -203,8 +198,6 @@ class ContactDetailScreen extends StatelessWidget {
           ),
 
           const SizedBox(height: 30),
-
-          /// Contact Information Card
           Card(
             elevation: 3,
             shape: RoundedRectangleBorder(

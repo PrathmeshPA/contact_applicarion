@@ -42,8 +42,6 @@ class AddContactScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 30),
-
-              /// Name
               TextFormField(
                 controller: name,
                 validator: (value) {
@@ -62,8 +60,6 @@ class AddContactScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 15),
-
-              /// Phone
               TextFormField(
                 controller: phone,
                 keyboardType: TextInputType.number,
@@ -89,8 +85,6 @@ class AddContactScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 15),
-
-              /// Email
               TextFormField(
                 controller: email,
                 keyboardType: TextInputType.emailAddress,
@@ -116,8 +110,6 @@ class AddContactScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 15),
-
-              /// Address
               TextFormField(
                 controller: address,
                 decoration: InputDecoration(
@@ -131,7 +123,6 @@ class AddContactScreen extends StatelessWidget {
 
               const SizedBox(height: 15),
 
-              /// Work
               TextFormField(
                 controller: work,
                 decoration: InputDecoration(
@@ -147,8 +138,6 @@ class AddContactScreen extends StatelessWidget {
 
               Row(
                 children: [
-
-                  /// Cancel Button
                   Expanded(
                     child: SizedBox(
                       height: 50,
@@ -169,15 +158,13 @@ class AddContactScreen extends StatelessWidget {
 
                         child: const Text(
                           "Cancel",
-                          style: TextStyle(fontSize: 20,color: Colors.red),
+                          style: TextStyle(fontSize: 16,color: Colors.red),
                         ),
                       ),
                     ),
                   ),
 
                   const SizedBox(width: 15),
-
-                  /// Save Button
                   Expanded(
                     child: SizedBox(
                       height: 50,
@@ -192,28 +179,27 @@ class AddContactScreen extends StatelessWidget {
 
                         child: const Text(
                           "Save Contact",
-                          style: TextStyle(fontSize: 20),
+                          style: TextStyle(fontSize: 16),
                         ),
 
-                        onPressed: () {
+                          onPressed: ()  {
 
-                          if(formKey.currentState!.validate()){
+                            if(formKey.currentState!.validate()){
 
-                            controller.addContact(
-                              Contact(
-                                name: name.text,
-                                phone: phone.text,
-                                email: email.text,
-                                address: address.text,
-                                work: work.text,
-                              ),
-                            );
+                               controller.addContact(
+                                Contact(
+                                  name: name.text,
+                                  phone: phone.text,
+                                  email: email.text,
+                                  address: address.text,
+                                  work: work.text,
+                                ),
+                              );
 
-                            Get.back();
+                              Get.back();
+                            }
 
                           }
-
-                        },
                       ),
                     ),
                   ),

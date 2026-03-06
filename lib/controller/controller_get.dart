@@ -4,7 +4,7 @@ import '../models/contect_model.dart';
 
 class ContactController extends GetxController {
 
-  DBHelper db = DBHelper();
+  DBHelper db = DBHelper.instance;
 
   var contacts = <Contact>[].obs;
   var filteredContacts = <Contact>[].obs;
@@ -33,24 +33,29 @@ class ContactController extends GetxController {
 
   void searchContacts(String query) {
 
-    if (query.trim().isEmpty) {
+    if (query.isEmpty) {
 
       filteredContacts.assignAll(contacts);
       filteredFavorites.assignAll(favorites);
 
     } else {
 
-      final search = query.toLowerCase();
+      final lowerQuery = query.toLowerCase();
 
-      filteredContacts.assignAll(
-        contacts.where((contact) =>
-            contact.name.toLowerCase().contains(search)).toList(),
-      );
+      final result = contacts.where((contact) {
 
-      filteredFavorites.assignAll(
-        favorites.where((contact) =>
-            contact.name.toLowerCase().contains(search)).toList(),
-      );
+        return contact.name.toLowerCase().contains(lowerQuery) ||
+            contact.phone.contains(lowerQuery) ||
+            contact.email.toLowerCase().contains(lowerQuery);
+
+      }).toList();
+
+      filteredContacts.assignAll(result);
+
+      final favResult = result.where((c) => c.favorite == 1).toList();
+
+      filteredFavorites.assignAll(favResult);
+
     }
   }
 

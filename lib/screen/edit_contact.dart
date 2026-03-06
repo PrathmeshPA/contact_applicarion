@@ -55,7 +55,6 @@ class EditContactScreen extends StatelessWidget {
           child: Column(
             children: [
 
-              /// Avatar
               CircleAvatar(
                 radius: 45,
                 backgroundColor: getAvatarColor(contact.name),
@@ -72,8 +71,6 @@ class EditContactScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 25),
-
-              /// Name Field
               TextField(
                 controller: name,
                 decoration: InputDecoration(
@@ -86,8 +83,6 @@ class EditContactScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 15),
-
-              /// Phone Field
               TextFormField(
                 controller: phone,
                 keyboardType: TextInputType.phone,
@@ -113,8 +108,6 @@ class EditContactScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 15),
-
-              /// Email Field
               TextFormField(
                 controller: email,
                 keyboardType: TextInputType.emailAddress,
@@ -166,12 +159,8 @@ class EditContactScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 30),
-
-              /// Update Button
               Row(
                 children: [
-
-                  /// Cancel Button
                   Expanded(
                     child: SizedBox(
                       height: 50,
@@ -193,8 +182,6 @@ class EditContactScreen extends StatelessWidget {
                   ),
 
                   const SizedBox(width: 15),
-
-                  /// Update Button
                   Expanded(
                     child: SizedBox(
                       height: 50,
