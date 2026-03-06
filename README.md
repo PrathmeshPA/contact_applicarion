@@ -1,4 +1,4 @@
-# Flutter Contacts Application
+<img width="1344" height="2992" alt="Screenshot_20260305_171456" src="https://github.com/user-attachments/assets/60f3d204-89ef-4fcd-af47-c30880e194e2" /># Flutter Contacts Application
 
 ## Project Overview
 
@@ -245,7 +245,7 @@ flutter doctor
 
 Step 2: Clone Repository
 
-git clone https://github.com/yourusername/flutter_contacts_app.git
+git clone https://github.com/PrathmeshPA/contact_applicarion
 
 ---
 
@@ -334,7 +334,19 @@ The phone dialer will open automatically.
 
 # ScreenSho
 
-<img width="250" height="250" alt="Screenshot_20260305_171405" src="https://github.com/user-attachments/assets/9aaa25dd-7f42-46fb-ad4e-cb1cf987ee19" />
+<img width="250" height="450" alt="Screenshot_20260305_171405" src="https://github.com/user-attachments/assets/9aaa25dd-7f42-46fb-ad4e-cb1cf987ee19" />
+<img width="250" height="450" alt="Screenshot_20260305_171420" src="https://github.com/user-attachments/assets/f3daa103-0ed6-489a-bf5b-e9c12c99e38f" />
+
+<img width="250" height="450" alt="Screenshot_20260305_171514" src="https://github.com/user-attachments/assets/4ddeaab1-d788-4a0e-a427-79c946b9548d" />
+
+<img width="250" height="450" alt="Screenshot_20260305_171530" src="https://github.com/user-attachments/assets/d8c1550f-d07b-474b-a536-4d73ee7a66fc" />
+
+-62cd5614cbb6" /><img width="250" height="450" alt="Screenshot_20260305_171436" src="https://github.com/user-attachments/assets/f6d6f8f7-b1f8-4d67-8ee6-a2e0bf4fc716" />
+
+ding Screenshot_20260305_171456.png…]()
+4f88-8be0-9bd24e2cb2d0" />
+<img width="250" height="450" alt="Screenshot_20260305_171456" src="https://github.com/user-attachments/assets/8bd09be1-ef07-4c0e-b2c3-542f1fa9745d" />
+
 tes
 
 
