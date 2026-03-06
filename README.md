@@ -51,6 +51,8 @@ Input Fields:
 • Name  
 • Phone Number  
 • Email Address  
+• Address  
+• Work info  
 
 
 
@@ -66,7 +68,9 @@ Editable fields include:
 
 • Name  
 • Phone number  
-• Email address  
+• Email address 
+• Address  
+• Work info
 
 Example:
 
@@ -111,6 +115,8 @@ Displayed Information:
 • Contact name  
 • Phone number  
 • Email address  
+• Address  
+• Work info
 
 
 
@@ -118,7 +124,8 @@ Available actions:
 
 • Call contact  
 • Delete contact  
-• Mark or unmark favorite  
+• Mark or unmark favorite 
+
 
 ---
 
@@ -322,6 +329,14 @@ Calling a Contact
 2 Tap Call button  
 
 The phone dialer will open automatically.
+
+---
+
+# ScreenSho
+
+<img width="1344" height="2992" alt="Screenshot_20260305_171405" src="https://github.com/user-attachments/assets/9aaa25dd-7f42-46fb-ad4e-cb1cf987ee19" />
+tes
+
 
 ---
 
